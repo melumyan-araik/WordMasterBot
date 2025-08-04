@@ -21,14 +21,14 @@ Words/
 │   └── utils/             # Утилиты (будущие)
 ├── tests/                 # Тесты
 ├── scripts/               # Скрипты
-│   └── populate_database.py  # Скрипт заполнения БД словами
+│   |── populate_database.py   # Скрипт заполнения БД словами
+|   └── populate_db.py         # Скрипт заполнения БД
 ├── docs/                  # Документация
 │   ├── SETUP.md
 │   └── ТЗ для MVP Telegram-бота изучения английских слов.markdown
 ├── data/                  # Данные
 │   └── words_bot.db      # База данных SQLite
 ├── run.py                 # Точка входа для запуска бота
-├── populate_db.py         # Скрипт заполнения БД
 ├── requirements.txt       # Зависимости Python
 ├── .gitignore            # Исключения для Git
 └── README.md             # Этот файл
